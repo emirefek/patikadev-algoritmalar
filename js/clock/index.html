@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JS saat</title>
+    <style>
+      body {
+        background-color: grey;
+        color: rgb(239, 143, 0);
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>JS SAAT</h2>
+    <h3>Merhaba, <span id="user">!</span> Hoş geldin!</h3>
+    <h1>
+      <span id="saat"></span>:<span id="dakika"></span>:<span
+        id="saniye"
+      ></span>
+      Cuma
+    </h1>
+    <h3>JS Clock</h3>
+    <script>
+      let userName = prompt("Lutfen isminizi giriniz");
+      user.innerHTML = `${userName}`;
+      saat.innerHTML = `${new Date().getHours()}`;
+      dakika.innerHTML = `${new Date().getMinutes()}`;
+      saniye.innerHTML = `${new Date().getSeconds()}`;
+    </script>
+  </body>
+</html>
